@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -29,7 +28,7 @@ body {
 .hoverCircle {
   width: 200px;
   height: 200px;
-  border-radius: 500px;
+  border-radius: 50%;
   background-color: turquoise;
   transition: width 2s, height 3s, border-radius 3s, background-color 5s,
     transform 3s;
@@ -41,6 +40,7 @@ body {
   height: 300px;
   border-radius: 0;
   transform: rotate(2700deg);
+  /* transform: translate(50px); */
 }
 /* 
 <h1> 3 Click Anywhere to move the target</h1> */
