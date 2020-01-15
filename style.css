@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: auto;
-  max-width: 50%;
+  max-width: 80%;
 }
 
 /* <h1> 1 Hover on Simpson to see a Difference.</h1> */
