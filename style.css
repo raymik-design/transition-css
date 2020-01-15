@@ -1,0 +1,56 @@
+body {
+  margin: auto;
+  max-width: 50%;
+}
+
+/* <h1> 1 Hover on Simpson to see a Difference.</h1> */
+.hoverImg {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/1.png);
+  transition: all 2s ease-out; /*Apply to all elements*/
+  margin: 20px;
+  border: 8px solid tomato;
+  /* transition: border 2s ease-out;  This can be used if only for 1 elemet*/
+}
+
+.hoverImg:hover {
+  background-image: url(img/2.png);
+  border: 40px solid teal;
+}
+
+/* <h1> 2 Hover on Circle to see a Difference</h1> */
+.hoverCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+  background-color: turquoise;
+  transition: width 2s, height 3s, border-radius 3s, background-color 5s,
+    transform 3s;
+}
+
+.hoverCircle:hover {
+  background-color: tomato;
+  width: 300px;
+  height: 300px;
+  border-radius: 0;
+  transform: rotate(2700deg);
+}
+/* 
+<h1> 3 Click Anywhere to move the target</h1> */
+
+#ball i {
+  font-size: 4em;
+  color: tomato;
+}
+
+#ball {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s;
+}
